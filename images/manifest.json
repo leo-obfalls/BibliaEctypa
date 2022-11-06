@@ -1,0 +1,66 @@
+{
+  "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in leo-obfalls/BibliaEctypa project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 493,
+    "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/canvas/",
+    "label" : {
+      "none" : [ "biblephotos" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 16,
+              "height" : 24
+            }, {
+              "width" : 31,
+              "height" : 47
+            }, {
+              "width" : 62,
+              "height" : 93
+            }, {
+              "width" : 124,
+              "height" : 186
+            }, {
+              "width" : 247,
+              "height" : 372
+            }, {
+              "width" : 493,
+              "height" : 744
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 493,
+            "@id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 744
+          } ],
+          "format" : "image/jpeg",
+          "width" : 493,
+          "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 744
+        },
+        "target" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/canvas/"
+      } ]
+    } ],
+    "height" : 744
+  } ]
+}
