@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 474,
+    "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2/canvas/",
+    "label" : {
+      "none" : [ "bp2" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 15,
+              "height" : 23
+            }, {
+              "width" : 30,
+              "height" : 45
+            }, {
+              "width" : 60,
+              "height" : 89
+            }, {
+              "width" : 119,
+              "height" : 177
+            }, {
+              "width" : 237,
+              "height" : 353
+            }, {
+              "width" : 474,
+              "height" : 705
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 474,
+            "@id" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 705
+          } ],
+          "format" : "image/jpeg",
+          "width" : 474,
+          "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 705
+        },
+        "target" : "https://leo-obfalls.github.io/BibliaEctypa/images/bp2/canvas/"
+      } ]
+    } ],
+    "height" : 705
+  }, {
     "width" : 493,
     "id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos/canvas/",
     "label" : {
