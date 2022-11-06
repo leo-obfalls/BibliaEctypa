@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 16,
+    "height" : 24
+  }, {
+    "width" : 31,
+    "height" : 47
+  }, {
+    "width" : 62,
+    "height" : 93
+  }, {
+    "width" : 124,
+    "height" : 186
+  }, {
+    "width" : 247,
+    "height" : 372
+  }, {
+    "width" : 493,
+    "height" : 744
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 493,
+  "@id" : "https://leo-obfalls.github.io/BibliaEctypa/images/biblephotos",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 744
+}
